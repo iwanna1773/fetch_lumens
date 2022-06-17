@@ -1,0 +1,7 @@
+{
+  "name": "fetch_lumens",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
