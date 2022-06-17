@@ -12,6 +12,16 @@ const SlidesStyle = styled.div`
       color: #171725;
     }
   }
+  .slick-track {
+    display: flex;
+    .slick-slide {
+      height: auto;
+      > div {
+        display: flex;
+        height: 100%;
+      }
+    }
+  }
 `;
 
 export { SlidesStyle };

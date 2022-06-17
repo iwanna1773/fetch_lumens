@@ -11,17 +11,17 @@ import { ContentStyle } from "./content.style";
 
 const Content = () => {
   return (
-    <ContentStyle>
+    <ContentStyle className="d-flex">
       <Slides>
         <Card />
         <Card
           imageTop={<IconPetro fill="#2CC2B0" />}
           title={
-            <div className="d-flex gap-8">
-              <div>
-                <IconL />
-              </div>
-              <span className="color-gey_3 font-semibold">1,000 Coins</span>
+            <div className="d-flex items-center">
+              <IconL />
+              <span className="color-gey_3 font-semibold pl-8">
+                1,000 Coins
+              </span>
             </div>
           }
           content="70% discount top-up on your Shell Petrol Card"

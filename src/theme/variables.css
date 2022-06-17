@@ -234,6 +234,16 @@ http://ionicframework.com/docs/theming/ */
   }
 }
 
+@font-face {
+  font-family: "Hellix";
+  src: local("./fonts/Hellix/Hellix Bold"), local("Hellix-Bold"),
+    url("./fonts/Hellix/Hellix-Bold.woff2") format("woff2"),
+    url("./fonts/Hellix/Hellix-Bold.woff") format("woff"),
+    url("./fonts/Hellix/Hellix-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
 h3 {
   font-family: "Hellix";
   font-style: normal;
@@ -267,10 +277,6 @@ span {
 
 .d-flex {
   display: flex;
-}
-
-.gap-8 {
-  gap: 8px;
 }
 
 .color-gey_3 {
@@ -327,4 +333,16 @@ span {
 
 .text-center {
   text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.pl-8 {
+  padding-left: 8px;
+}
+
+.items-center {
+  align-items: center;
 }

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const CoinBalanceStyle = styled.div`
-  background: linear-gradient(180deg, #171725 50%, #e5e5e5 50%);
+  background: linear-gradient(180deg, #171725 40%, #e5e5e5 40%);
   .coin-bg {
     margin: 0px 16px;
     position: relative;
